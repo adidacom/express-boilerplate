@@ -1,0 +1,48 @@
+{
+  "name": "dev-starter",
+  "version": "1.0.0",
+  "description": "dev starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server:prod",
+    "server:dev": "nodemon server.js",
+    "server:prod": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://adidacom@bitbucket.org/adidacom/node-starter.git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongoose"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/adidacom/node-starter#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-watch": "^4.0.2",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}

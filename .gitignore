@@ -1,0 +1,7 @@
+.vscode
+node_modules
+.env
+.DS_Store
+package-lock.json
+# security keys
+# config/keys_dev.js
